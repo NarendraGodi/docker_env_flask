@@ -5,7 +5,7 @@ RUN apt-get update && apt-get -y upgrade
 # Install apt utilities.
 RUN apt install apt-utils
 # Add the environment variable.
-ENV NAME Godi
+ENV NAME=Godi
 # Install Python and PIP.
 RUN apt install -y python3 && apt install -y pip
 # Install Flask Package for the execution of Flask Application.
